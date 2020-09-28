@@ -1,0 +1,11 @@
+.l-sidebar {
+  width: 100%;
+
+  @include mq(md, min) {
+    position: sticky;
+    top: 0;
+    order: 2;
+    max-width: 216px;
+    padding: 60px 40px;
+  }
+}

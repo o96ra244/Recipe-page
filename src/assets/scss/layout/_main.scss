@@ -1,0 +1,12 @@
+.l-main {
+  //overflow: hidden;
+  margin-bottom: 155px;
+  *zoom: 1;
+
+  @include mq(md, min) {
+    flex: 1;
+    order: 1;
+    margin-right: 110px;
+    margin-bottom: 110px;
+  }
+}

@@ -1,0 +1,17 @@
+.l-contents {
+  margin: auto;
+  padding: 15px;
+
+  @include mq(md, min) {
+    max-width: 999px;
+    padding: 52px 15px 17px;
+  }
+}
+
+.l-wrapper {
+  @include mq(md, min) {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+  }
+}

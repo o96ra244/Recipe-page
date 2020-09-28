@@ -1,0 +1,15 @@
+.p-footer {
+  text-align: center;
+
+  &__copyright {
+    color: #a9a9a9;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+
+    @include mq(md, min) {
+    }
+  }
+}
